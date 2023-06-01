@@ -1,48 +1,170 @@
-#nav{
-    background-color: rgb(39, 38, 38);
-    margin: 20px;
-    gap: 20px;
-    padding: 15px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    overflow-x: hidden;
+    transition: .5s all linear;
+}
+body{
+background-color: var(--lightgray);
+overflow-x: hidden;
+}
+ .gadget{
+   
+    background-color: #fff;
+    align-items: center;
+    padding:1em;
+}
+.logo{
+    font-size:1.7rem;
+    color:var(--black);
+    font-weight: bold;
+    margin-left:2em;
+    margin-top: 25%;
+}
+.color_txt{
+    color:var(--orange);
+}
+ul{
+    display: flex;
+    margin-left: 25%;
+}
+ul li{
+    margin-right: 1.4em;
+    font-size: 1.05;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+ul a:hover{
+    color: var(--orange);
+    border-bottom: 1px solid var(--orange);
+}
+.color_txt{
+    color: orange;
+}
+.button2{
+    display: flex;
+    gap: 3rem;
+    margin-left: 6.5%;
+  }
+  .category{
+    padding: 20px 40px ;
+  }
+  .search{
+    padding: 20px 320px;
+  }
+.home_btn{
+    margin: 1em 0;
+    padding:.5em 1em;
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 1em;
+    border-radius: 7px;
+}
+.home_btn:hover{
+    background-color: #fff;
+    color: var(--orange);
+}
+.home{
+    display: flex;
+    background-color: #D0BFFF;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+.home2{
+    display: flex;
+    background-color: #D0BFFF;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-right: 7%;
+    margin-top: 3%;
+}
+#remote{
+    width: 40%;
+    height: 60%;
+}
+#text{
+    text-align: center;
+    margin-left: 3%;
+}
+#text1{
+    text-align: center;
+    margin-left: 3%;
+    font-weight: bold;
+}
+.home_img_container{
+    width: 60%;
+    height: 40%;
+}
+.images{
+    display: flex;
+    margin-left: 10%;
+    gap: 2%;
+    margin-top: 2%;
+}
+.img{
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.section3{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 13%;
+   
 }
 
-#button1{
- padding: 10px;
- background-color: yellow;
- color: black;
-}
-#doub{
+.footer{
     display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+    color: #fff;
+    margin-top: 5%;
+    padding: 70px;
 }
-#category{
-    border-radius: 180px;
-    padding: 10px;
-    border-color: black;
-    background-color: aliceblue;
-    width: 40%;
+#post{
+    font-weight: bold;
 }
-#search{
-    border-radius: 50px;
-    padding: 10px;
-    border-color: black;
-    background-color: aliceblue;
-    width: 60%;
+.section4{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 25%;
+    margin-top: 3%;
+    gap: 5%;
 }
-#interface{
-    background-color: plum;
+#emailbar{
+    background-color: orange;
+    color: #fff;
 }
-#order{
+#name{
+    font-weight: bold;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 5%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#products img{
+    height: 200px;
+}
+#products h2{
+    font-size: 20px;
+    text-align: center;
+}
+#products button{
     background-color: yellow;
-    color: black;
-    padding: 10px;
-}
-#explore{
-    border-color: whitesmoke;
-    color: white;
-    padding: 10px;
-}
-#button2{
-    padding: 5px;
-    background-color: black;
-    color: aliceblue;
+    margin-bottom:10%;
+    float: right;
+    margin-right: 40%;
 }
 
